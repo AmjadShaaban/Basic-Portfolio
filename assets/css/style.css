@@ -1,0 +1,59 @@
+html,
+body {
+  height: 100%;
+  margin: 0;
+}
+.wrapper {
+  height: 100%;
+  width: 100%;
+  display: table;
+}
+.header,
+.content,
+.footer {
+  display: table-row;
+}
+.header,
+.footer {
+  background: silver;
+}
+.inner {
+  display: table-cell;
+}
+.headfoot-box {
+  margin-left: auto;
+  margin-right: auto;
+  width: 960px;
+}
+.left {
+  font-size: 3em;
+  background-color: aquamarine;
+  box-shadow: 2em;
+  float: Left;
+}
+.right {
+  line-height: 3em;
+  float: right;
+}
+.content .inner {
+  height: 100%;
+  position: relative;
+  background: pink;
+}
+.content-box {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  height: 1000px;
+  width: 960px;
+  background-color: snow;
+}
+.scrollable {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  overflow: auto;
+}
