@@ -5,6 +5,12 @@ body {
   height: 100%;
   margin: 0;
 }
+hr {
+  width: 95%;
+  margin-left: auto;
+  margin-right: auto;
+  border: 0.1em solid #cccccc;
+}
 .wrapper {
   height: 100%;
   width: 100%;
@@ -38,9 +44,17 @@ body {
   margin-right: auto;
   width: 960px;
 }
+.content-title {
+  position: relative;
+  padding: 1em;
+  font-size: 2em;
+  font-family: "Georgia", Times, Times New Roman, serif;
+  font-weight: bold;
+  color: #4aaaa5;
+  padding: 0.5em;
+}
 .footer-box {
   text-align: center;
-  line-height: -4em;
   font-family: "Georgia", Times, Times New Roman, serif;
   margin-left: auto;
   margin-right: auto;
@@ -69,12 +83,14 @@ body {
   background-image: url(../images/interlaced.png);
 }
 .content-box {
-  margin-top: 50px;
+  margin-top: 2em;
   margin-bottom: 50px;
   margin-left: auto;
   margin-right: auto;
   height: 1000px;
   width: 960px;
+  max-width: 960px;
+  border: 1em solid yellowgreen;
   background-color: snow;
 }
 .scrollable {
