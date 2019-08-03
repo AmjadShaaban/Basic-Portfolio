@@ -46,12 +46,12 @@ hr {
 }
 .content-title {
   position: relative;
-  padding: 1em;
+  line-height: 2em;
   font-size: 2em;
   font-family: "Georgia", Times, Times New Roman, serif;
   font-weight: bold;
   color: #4aaaa5;
-  padding: 0.5em;
+  padding: 1em;
 }
 .footer-box {
   text-align: center;
@@ -84,13 +84,13 @@ hr {
 }
 .content-box {
   margin-top: 2em;
-  margin-bottom: 50px;
+  margin-bottom: 2em;
   margin-left: auto;
   margin-right: auto;
   height: 1000px;
   width: 960px;
   max-width: 960px;
-  border: 1em solid yellowgreen;
+  border: 0.01em solid #dddddd;
   background-color: snow;
 }
 .scrollable {
