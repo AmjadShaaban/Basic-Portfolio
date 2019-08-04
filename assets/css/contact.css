@@ -1,0 +1,22 @@
+.contact {
+  line-height: 2em;
+  padding: 2em;
+}
+#box {
+  width: 95%;
+  height: 1.5em;
+}
+#message-box {
+  width: 95%;
+  height: 16em;
+}
+input[type="submit"],
+input[type="reset"] {
+  background-color: #4aaaa5;
+  border: none;
+  color: #ffffff;
+  font-size: 1em;
+  padding: 1em 2em;
+  margin: 4px 2px;
+  cursor: pointer;
+}

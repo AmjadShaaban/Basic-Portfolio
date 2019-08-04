@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <link rel="stylesheet" type="text/css" href="assets/css/style.css" />
+    <link rel="stylesheet" type="text/css" href="assets/css/contact.css" />
 
     <title>Contact</title>
   </head>
@@ -31,8 +32,33 @@
               <div class="content-title">Contact</div>
               <!-- <hr style="border: none;" /> -->
               <hr />
-              <div class="about-me">
-                <p>PAGE CONTENT HERE!</p>
+              <div class="contact">
+                <form
+                  action="mailto:theamjad@gmail.com"
+                  method="POST"
+                  enctype="text/plain"
+                >
+                  Name
+                  <br />
+                  <input id="box" type="text" name="name" value="John Smith" />
+                  <br />
+                  Email
+                  <br />
+                  <input
+                    id="box"
+                    type="text"
+                    name="email"
+                    value="example@email.com"
+                  />
+                  <br />
+                  Message
+                  <br />
+                  <input id="message-box" type="text" name="message" />
+                  <br />
+                  <br />
+                  <input type="submit" value="Submit" />
+                  &nbsp<input type="reset" value="Reset" />
+                </form>
               </div>
             </div>
           </div>
