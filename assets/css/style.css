@@ -119,6 +119,7 @@ hr {
   width: 95%;
   height: 16em;
   border: 0.01em solid #dddddd;
+  background-image: url("../images/email-pattern.png");
 }
 input[type="submit"],
 input[type="reset"] {
@@ -144,7 +145,7 @@ p {
   line-height: 2em;
 }
 
-/* STYLES RELATED TO PORTFOLIO.HTML */
+/* STYLES RELATED TO PORTFOLIO.HTML ONLY */
 
 .portfolio {
   max-width: 900px;
