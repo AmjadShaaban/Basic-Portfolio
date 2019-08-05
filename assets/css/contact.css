@@ -5,10 +5,12 @@
 #box {
   width: 95%;
   height: 1.5em;
+  border: 0.01em solid #dddddd;
 }
 #message-box {
   width: 95%;
   height: 16em;
+  border: 0.01em solid #dddddd;
 }
 input[type="submit"],
 input[type="reset"] {
